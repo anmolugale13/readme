@@ -36,18 +36,22 @@
 
 ## 📊 GitHub Stats
 <p align="center">
+  <!-- Profile views counter -->
   <img src="https://komarev.com/ghpvc/?username=anmolugale13&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
 <p align="center">
+  <!-- GitHub stats card -->
   <img src="https://github-readme-stats.vercel.app/api?username=anmolugale13&show_icons=true&theme=radical" alt="GitHub stats" />
 </p>
 
 <p align="center">
+  <!-- Streak stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmolugale13&theme=radical" alt="Streak stats" />
 </p>
 
 <p align="center">
+  <!-- Top languages card -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolugale13&layout=compact&theme=radical" alt="Top languages" />
 </p>
 
