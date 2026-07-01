@@ -41,8 +41,8 @@
 </p>
 
 <p align="center">
-  <!-- GitHub stats card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=anmolugale13&show_icons=true&theme=radical" alt="GitHub stats" />
+  <!-- GitHub stats card (self-hosted) -->
+  <img src="https://my-readme-tau.vercel.app/api?username=anmolugale13&show_icons=true&theme=radical" alt="GitHub stats" />
 </p>
 
 <p align="center">
@@ -51,8 +51,8 @@
 </p>
 
 <p align="center">
-  <!-- Top languages card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolugale13&layout=compact&theme=radical" alt="Top languages" />
+  <!-- Top languages card (self-hosted) -->
+  <img src="https://my-readme-tau.vercel.app/api/top-langs/?username=anmolugale13&layout=compact&theme=radical" alt="Top languages" />
 </p>
 
 ---
