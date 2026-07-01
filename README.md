@@ -59,8 +59,9 @@
 
 ## 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anmolugale13&theme=onedark" alt="GitHub trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=anmolugale13&theme=radical&margin-w=15&margin-h=15" alt="GitHub trophies" />
 </p>
+
 
 ---
 
