@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **Backend, Frontend**  
 - 🌱 I’m currently learning **Data Science, Data Analytics, AI/ML**  
-- 💬 Ask me about **Python, Javascript, ReactJs, MongoDB, SQL**  
+- 💬 Ask me about **Python, HTML, CSS, ReactJs, SQL**  
 - 📫 Reach me at **anmolugale13@gmail.com**
 
 ---
