@@ -1,0 +1,176 @@
+<svg viewBox="0 0 281 393" width="281" height="393" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">
+<style>
+  .bg { fill:#0d1117; }
+  .frame { fill:none; stroke:#30363d; stroke-width:1; }
+  .dot { opacity:0.9; }
+  .title { fill:#6e7681; font-size:9px; }
+  .ascii { fill:#c9d1d9; font-size:6.6px; white-space:pre; }
+  .cursor { fill:#c9d1d9; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+
+  .l0 { clip-path: inset(0 100% 0 0); animation: reveal0 0.141s steps(64) forwards; animation-delay: 0.350s; }
+  @keyframes reveal0 { to { clip-path: inset(0 0 0 0); } }
+  .l1 { clip-path: inset(0 100% 0 0); animation: reveal1 0.141s steps(64) forwards; animation-delay: 0.493s; }
+  @keyframes reveal1 { to { clip-path: inset(0 0 0 0); } }
+  .l2 { clip-path: inset(0 100% 0 0); animation: reveal2 0.141s steps(64) forwards; animation-delay: 0.636s; }
+  @keyframes reveal2 { to { clip-path: inset(0 0 0 0); } }
+  .l3 { clip-path: inset(0 100% 0 0); animation: reveal3 0.141s steps(64) forwards; animation-delay: 0.778s; }
+  @keyframes reveal3 { to { clip-path: inset(0 0 0 0); } }
+  .l4 { clip-path: inset(0 100% 0 0); animation: reveal4 0.141s steps(64) forwards; animation-delay: 0.921s; }
+  @keyframes reveal4 { to { clip-path: inset(0 0 0 0); } }
+  .l5 { clip-path: inset(0 100% 0 0); animation: reveal5 0.141s steps(64) forwards; animation-delay: 1.064s; }
+  @keyframes reveal5 { to { clip-path: inset(0 0 0 0); } }
+  .l6 { clip-path: inset(0 100% 0 0); animation: reveal6 0.141s steps(64) forwards; animation-delay: 1.207s; }
+  @keyframes reveal6 { to { clip-path: inset(0 0 0 0); } }
+  .l7 { clip-path: inset(0 100% 0 0); animation: reveal7 0.141s steps(64) forwards; animation-delay: 1.350s; }
+  @keyframes reveal7 { to { clip-path: inset(0 0 0 0); } }
+  .l8 { clip-path: inset(0 100% 0 0); animation: reveal8 0.141s steps(64) forwards; animation-delay: 1.492s; }
+  @keyframes reveal8 { to { clip-path: inset(0 0 0 0); } }
+  .l9 { clip-path: inset(0 100% 0 0); animation: reveal9 0.141s steps(64) forwards; animation-delay: 1.635s; }
+  @keyframes reveal9 { to { clip-path: inset(0 0 0 0); } }
+  .l10 { clip-path: inset(0 100% 0 0); animation: reveal10 0.141s steps(64) forwards; animation-delay: 1.778s; }
+  @keyframes reveal10 { to { clip-path: inset(0 0 0 0); } }
+  .l11 { clip-path: inset(0 100% 0 0); animation: reveal11 0.141s steps(64) forwards; animation-delay: 1.921s; }
+  @keyframes reveal11 { to { clip-path: inset(0 0 0 0); } }
+  .l12 { clip-path: inset(0 100% 0 0); animation: reveal12 0.141s steps(64) forwards; animation-delay: 2.064s; }
+  @keyframes reveal12 { to { clip-path: inset(0 0 0 0); } }
+  .l13 { clip-path: inset(0 100% 0 0); animation: reveal13 0.141s steps(64) forwards; animation-delay: 2.206s; }
+  @keyframes reveal13 { to { clip-path: inset(0 0 0 0); } }
+  .l14 { clip-path: inset(0 100% 0 0); animation: reveal14 0.141s steps(64) forwards; animation-delay: 2.349s; }
+  @keyframes reveal14 { to { clip-path: inset(0 0 0 0); } }
+  .l15 { clip-path: inset(0 100% 0 0); animation: reveal15 0.141s steps(64) forwards; animation-delay: 2.492s; }
+  @keyframes reveal15 { to { clip-path: inset(0 0 0 0); } }
+  .l16 { clip-path: inset(0 100% 0 0); animation: reveal16 0.141s steps(64) forwards; animation-delay: 2.635s; }
+  @keyframes reveal16 { to { clip-path: inset(0 0 0 0); } }
+  .l17 { clip-path: inset(0 100% 0 0); animation: reveal17 0.141s steps(64) forwards; animation-delay: 2.778s; }
+  @keyframes reveal17 { to { clip-path: inset(0 0 0 0); } }
+  .l18 { clip-path: inset(0 100% 0 0); animation: reveal18 0.141s steps(64) forwards; animation-delay: 2.920s; }
+  @keyframes reveal18 { to { clip-path: inset(0 0 0 0); } }
+  .l19 { clip-path: inset(0 100% 0 0); animation: reveal19 0.141s steps(64) forwards; animation-delay: 3.063s; }
+  @keyframes reveal19 { to { clip-path: inset(0 0 0 0); } }
+  .l20 { clip-path: inset(0 100% 0 0); animation: reveal20 0.141s steps(64) forwards; animation-delay: 3.206s; }
+  @keyframes reveal20 { to { clip-path: inset(0 0 0 0); } }
+  .l21 { clip-path: inset(0 100% 0 0); animation: reveal21 0.141s steps(64) forwards; animation-delay: 3.349s; }
+  @keyframes reveal21 { to { clip-path: inset(0 0 0 0); } }
+  .l22 { clip-path: inset(0 100% 0 0); animation: reveal22 0.141s steps(64) forwards; animation-delay: 3.492s; }
+  @keyframes reveal22 { to { clip-path: inset(0 0 0 0); } }
+  .l23 { clip-path: inset(0 100% 0 0); animation: reveal23 0.141s steps(64) forwards; animation-delay: 3.634s; }
+  @keyframes reveal23 { to { clip-path: inset(0 0 0 0); } }
+  .l24 { clip-path: inset(0 100% 0 0); animation: reveal24 0.141s steps(64) forwards; animation-delay: 3.777s; }
+  @keyframes reveal24 { to { clip-path: inset(0 0 0 0); } }
+  .l25 { clip-path: inset(0 100% 0 0); animation: reveal25 0.141s steps(64) forwards; animation-delay: 3.920s; }
+  @keyframes reveal25 { to { clip-path: inset(0 0 0 0); } }
+  .l26 { clip-path: inset(0 100% 0 0); animation: reveal26 0.141s steps(64) forwards; animation-delay: 4.063s; }
+  @keyframes reveal26 { to { clip-path: inset(0 0 0 0); } }
+  .l27 { clip-path: inset(0 100% 0 0); animation: reveal27 0.141s steps(64) forwards; animation-delay: 4.206s; }
+  @keyframes reveal27 { to { clip-path: inset(0 0 0 0); } }
+  .l28 { clip-path: inset(0 100% 0 0); animation: reveal28 0.141s steps(64) forwards; animation-delay: 4.348s; }
+  @keyframes reveal28 { to { clip-path: inset(0 0 0 0); } }
+  .l29 { clip-path: inset(0 100% 0 0); animation: reveal29 0.141s steps(64) forwards; animation-delay: 4.491s; }
+  @keyframes reveal29 { to { clip-path: inset(0 0 0 0); } }
+  .l30 { clip-path: inset(0 100% 0 0); animation: reveal30 0.141s steps(64) forwards; animation-delay: 4.634s; }
+  @keyframes reveal30 { to { clip-path: inset(0 0 0 0); } }
+  .l31 { clip-path: inset(0 100% 0 0); animation: reveal31 0.141s steps(64) forwards; animation-delay: 4.777s; }
+  @keyframes reveal31 { to { clip-path: inset(0 0 0 0); } }
+  .l32 { clip-path: inset(0 100% 0 0); animation: reveal32 0.141s steps(64) forwards; animation-delay: 4.920s; }
+  @keyframes reveal32 { to { clip-path: inset(0 0 0 0); } }
+  .l33 { clip-path: inset(0 100% 0 0); animation: reveal33 0.141s steps(64) forwards; animation-delay: 5.062s; }
+  @keyframes reveal33 { to { clip-path: inset(0 0 0 0); } }
+  .l34 { clip-path: inset(0 100% 0 0); animation: reveal34 0.141s steps(64) forwards; animation-delay: 5.205s; }
+  @keyframes reveal34 { to { clip-path: inset(0 0 0 0); } }
+  .l35 { clip-path: inset(0 100% 0 0); animation: reveal35 0.141s steps(64) forwards; animation-delay: 5.348s; }
+  @keyframes reveal35 { to { clip-path: inset(0 0 0 0); } }
+  .l36 { clip-path: inset(0 100% 0 0); animation: reveal36 0.141s steps(64) forwards; animation-delay: 5.491s; }
+  @keyframes reveal36 { to { clip-path: inset(0 0 0 0); } }
+  .l37 { clip-path: inset(0 100% 0 0); animation: reveal37 0.141s steps(64) forwards; animation-delay: 5.634s; }
+  @keyframes reveal37 { to { clip-path: inset(0 0 0 0); } }
+  .l38 { clip-path: inset(0 100% 0 0); animation: reveal38 0.141s steps(64) forwards; animation-delay: 5.776s; }
+  @keyframes reveal38 { to { clip-path: inset(0 0 0 0); } }
+  .l39 { clip-path: inset(0 100% 0 0); animation: reveal39 0.141s steps(64) forwards; animation-delay: 5.919s; }
+  @keyframes reveal39 { to { clip-path: inset(0 0 0 0); } }
+  .l40 { clip-path: inset(0 100% 0 0); animation: reveal40 0.141s steps(64) forwards; animation-delay: 6.062s; }
+  @keyframes reveal40 { to { clip-path: inset(0 0 0 0); } }
+  .l41 { clip-path: inset(0 100% 0 0); animation: reveal41 0.141s steps(64) forwards; animation-delay: 6.205s; }
+  @keyframes reveal41 { to { clip-path: inset(0 0 0 0); } }
+  .l42 { clip-path: inset(0 100% 0 0); animation: reveal42 0.141s steps(64) forwards; animation-delay: 6.348s; }
+  @keyframes reveal42 { to { clip-path: inset(0 0 0 0); } }
+  .l43 { clip-path: inset(0 100% 0 0); animation: reveal43 0.141s steps(64) forwards; animation-delay: 6.490s; }
+  @keyframes reveal43 { to { clip-path: inset(0 0 0 0); } }
+  .l44 { clip-path: inset(0 100% 0 0); animation: reveal44 0.141s steps(64) forwards; animation-delay: 6.633s; }
+  @keyframes reveal44 { to { clip-path: inset(0 0 0 0); } }
+  .l45 { clip-path: inset(0 100% 0 0); animation: reveal45 0.141s steps(64) forwards; animation-delay: 6.776s; }
+  @keyframes reveal45 { to { clip-path: inset(0 0 0 0); } }
+  .l46 { clip-path: inset(0 100% 0 0); animation: reveal46 0.141s steps(64) forwards; animation-delay: 6.919s; }
+  @keyframes reveal46 { to { clip-path: inset(0 0 0 0); } }
+  .l47 { clip-path: inset(0 100% 0 0); animation: reveal47 0.141s steps(64) forwards; animation-delay: 7.062s; }
+  @keyframes reveal47 { to { clip-path: inset(0 0 0 0); } }
+  .l48 { clip-path: inset(0 100% 0 0); animation: reveal48 0.141s steps(64) forwards; animation-delay: 7.204s; }
+  @keyframes reveal48 { to { clip-path: inset(0 0 0 0); } }
+  .l49 { clip-path: inset(0 100% 0 0); animation: reveal49 0.141s steps(64) forwards; animation-delay: 7.347s; }
+  @keyframes reveal49 { to { clip-path: inset(0 0 0 0); } }
+  .l50 { clip-path: inset(0 100% 0 0); animation: reveal50 0.141s steps(64) forwards; animation-delay: 7.490s; }
+  @keyframes reveal50 { to { clip-path: inset(0 0 0 0); } }
+  .l51 { clip-path: inset(0 100% 0 0); animation: reveal51 0.141s steps(64) forwards; animation-delay: 7.633s; }
+  @keyframes reveal51 { to { clip-path: inset(0 0 0 0); } }
+</style>
+<rect class="bg" width="281" height="393" rx="8"/>
+<rect class="frame" x="0.5" y="0.5" width="280" height="392" rx="8"/>
+<line x1="0" y1="26" x2="281" y2="26" stroke="#21262d" stroke-width="1"/>
+<circle class="dot" cx="16" cy="19" r="3.2" fill="#484f58"/>
+<circle class="dot" cx="30" cy="19" r="3.2" fill="#484f58"/>
+<circle class="dot" cx="44" cy="19" r="3.2" fill="#484f58"/>
+<text class="title" x="140.5" y="22" text-anchor="middle">portrait.ascii</text>
+<g class="l0"><text class="ascii" x="14" y="40.60" xml:space="preserve">@#+*%%%#####++++*%%##%#====*@%%%##===%@@@%##+*******#######%%%%%</text></g>
+<g class="l1"><text class="ascii" x="14" y="47.20" xml:space="preserve">**+++***+++++==++******+==+*******=-=*##***++++++++++++*****####</text></g>
+<g class="l2"><text class="ascii" x="14" y="53.80" xml:space="preserve">..::..:::::::::::::::::-------==++++++++++++++++++++++++++++++++</text></g>
+<g class="l3"><text class="ascii" x="14" y="60.40" xml:space="preserve">:::::::::::-------------====+**##%%%%%%%%%%%###########*********</text></g>
+<g class="l4"><text class="ascii" x="14" y="67.00" xml:space="preserve">---------------==========+*****##%%%@@#*#%%%%%%###############**</text></g>
+<g class="l5"><text class="ascii" x="14" y="73.60" xml:space="preserve">-------=--------=======++****+*#%@@%%#*##%%%%%%#*+++++++++++++++</text></g>
+<g class="l6"><text class="ascii" x="14" y="80.20" xml:space="preserve">-----=++=+==---=+++++++****++*%%#*=-:.:-+#%%%%%%#*++++++++++++++</text></g>
+<g class="l7"><text class="ascii" x="14" y="86.80" xml:space="preserve">---=+****+++===+*****+******#%*-.&#160;&#160;&#160;..:::=*%%%%%%#++++++++++++++</text></g>
+<g class="l8"><text class="ascii" x="14" y="93.40" xml:space="preserve">===-==+**=:-++==--+*+***#*#%#:&#160;&#160;&#160;&#160;&#160;&#160;...::--+%%%##%#+++++++++++++</text></g>
+<g class="l9"><text class="ascii" x="14" y="100.00" xml:space="preserve">++=--=+**-&#160;&#160;.::--:+*+*####%#-:::..&#160;...:-=+***%%##%%*++++++++++++</text></g>
+<g class="l10"><text class="ascii" x="14" y="106.60" xml:space="preserve">+-::.:-+**..&#160;.:--+***##*#%#:.::-=-..::+**++++*@%##%*++++++++++++</text></g>
+<g class="l11"><text class="ascii" x="14" y="113.20" xml:space="preserve">+-..&#160;.:=**:&#160;&#160;..:-+***%**%%*--=+=-:.&#160;:+*++****+%@%#%%++++++++++++</text></g>
+<g class="l12"><text class="ascii" x="14" y="119.80" xml:space="preserve">++=::-+##*+-..:-+***%%*#%%+-.+#=-.&#160;&#160;-**=-##=+=*@@%%@*+++++++++++</text></g>
+<g class="l13"><text class="ascii" x="14" y="126.40" xml:space="preserve">*+---==*##*-::-=+#**%%*%%#.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:+=-:--==-*@@@%@#+++++++++++</text></g>
+<g class="l14"><text class="ascii" x="14" y="133.00" xml:space="preserve">====--======-=-=+++*%%*%%%.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-=+----=--#@@@%@%+++++++***#</text></g>
+<g class="l15"><text class="ascii" x="14" y="139.60" xml:space="preserve">&#160;&#160;&#160;:----------==--=*%%*#%@+......&#160;.-+++=====-*@@@@%@%*+++++*%+--</text></g>
+<g class="l16"><text class="ascii" x="14" y="146.20" xml:space="preserve">&#160;&#160;&#160;&#160;*++*************%%*#%%@-...:...-=++++++=+@@@@%%@#++++++*#=-:</text></g>
+<g class="l17"><text class="ascii" x="14" y="152.80" xml:space="preserve">&#160;&#160;&#160;&#160;-++++++++++++++*%%##%%@%-:...:==+**+++=+%@@@@%%@*++++++*#==*</text></g>
+<g class="l18"><text class="ascii" x="14" y="159.40" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;+=++++++++++++#%%%%%##@@*-:...:-=++++#@@@@@%%@#*++++++*#=:+</text></g>
+<g class="l19"><text class="ascii" x="14" y="166.00" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;==+==+======+*%%%%%@%##@@#+=-:-=++*#@@@@@@%%%%##*+++++*#+-+</text></g>
+<g class="l20"><text class="ascii" x="14" y="172.60" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;.+=+=======++*%@@%%@@@#%@#===++*##%%@@@@@%%%%##%*+++++*#+-+</text></g>
+<g class="l21"><text class="ascii" x="14" y="179.20" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;++++======+*%@%%%@@@@@@@+----=+*##%@@@@%#%%%#%%#*++++*#+*+</text></g>
+<g class="l22"><text class="ascii" x="14" y="185.80" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;-++++=====+%@%%@%%%#%%%#--::--=+*#%@%%%##%%%%%@%**+++*#+*+</text></g>
+<g class="l23"><text class="ascii" x="14" y="192.40" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;++++++-::+%%%%%%######%+:::--==+*#%%%%%%%%%%%%%%*+++*#+*+</text></g>
+<g class="l24"><text class="ascii" x="14" y="199.00" xml:space="preserve">....::-+++++++++#######%%%%####+-::----+######%%%%%%%%%#**+*#+*+</text></g>
+<g class="l25"><text class="ascii" x="14" y="205.60" xml:space="preserve">*******++++++*#############%%%%%*+=-:-+#%#*##*%%%%%%%%%%#####+*+</text></g>
+<g class="l26"><text class="ascii" x="14" y="212.20" xml:space="preserve">===========+#####################@%**%%%%#*###@@###%%%%%##%%#+*+</text></g>
+<g class="l27"><text class="ascii" x="14" y="218.80" xml:space="preserve">.:::::::--=######################%%%%%%%%#*###%%###%%%@%#%%%#**+</text></g>
+<g class="l28"><text class="ascii" x="14" y="225.40" xml:space="preserve">&#160;&#160;&#160;.....:-#####%%%##%############%%%%%#%%#####%%#%%%%%@%#@@%%#*+</text></g>
+<g class="l29"><text class="ascii" x="14" y="232.00" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;..+####%%%%%#%############%%%%%%%%####%%#%%%#%%%%%@@%%%#=</text></g>
+<g class="l30"><text class="ascii" x="14" y="238.60" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-#####%%%%%###########%%#%%%%%%%@%###%%%%%%#%#%%@@@@%%%*</text></g>
+<g class="l31"><text class="ascii" x="14" y="245.20" xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*#####%%%@%##########%%%%%%%%%%%%%%%%%%%%%%#%%#%%@@@%%%%</text></g>
+<g class="l32"><text class="ascii" x="14" y="251.80" xml:space="preserve">......&#160;=%#####%%%@@%#########%%%#%%%%%#%%%%%%%%%%%%%%#%@%@@%%%%%</text></g>
+<g class="l33"><text class="ascii" x="14" y="258.40" xml:space="preserve">.....&#160;:######%#%@@@%%########%%%#%%%%%#%%%%%%%%#%@%%%%@@@@@%%%%%</text></g>
+<g class="l34"><text class="ascii" x="14" y="265.00" xml:space="preserve">:.:...*####%%%%%%@%%%######%%%%%%%%%%%%%%%%%%%#%@%%%%@@@@@@%%%%%</text></g>
+<g class="l35"><text class="ascii" x="14" y="271.60" xml:space="preserve">::::.=#####%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%#%@@@@@@@@@%%%%</text></g>
+<g class="l36"><text class="ascii" x="14" y="278.20" xml:space="preserve">-:::-#####%%%%%%%@@%%%%%%%%%%%%%#%%%%%%#%%%%%%%@%@@@@@@@@@@%%%%%</text></g>
+<g class="l37"><text class="ascii" x="14" y="284.80" xml:space="preserve">=--:+#####%%%%%%@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@%%%%%%</text></g>
+<g class="l38"><text class="ascii" x="14" y="291.40" xml:space="preserve">=--=#####%%%%@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%@@%%@@@@@@@@@@%%%%%%%</text></g>
+<g class="l39"><text class="ascii" x="14" y="298.00" xml:space="preserve">+==#%%%%%%%%@@@@@%@%%%%%%@@%%%%%%%%%%%%%%%%@@@%@@@@@@@@@@@%%%%%%</text></g>
+<g class="l40"><text class="ascii" x="14" y="304.60" xml:space="preserve">++#%%%%%%%@@@@@@@%@%%%%%@@%%%%%%%%@@@@@%%%@@@@@@@@@@@@@@@@%%@@@@</text></g>
+<g class="l41"><text class="ascii" x="14" y="311.20" xml:space="preserve">+#%########%%%@@##@%%%%@@@%%%@@%%%#++*+*@@@@@@@@@@@@@@@@@%%%%%%%</text></g>
+<g class="l42"><text class="ascii" x="14" y="317.80" xml:space="preserve">*#################%%%%@@@%%@%#+:--:..:-+*#%@@@@@@@@%%%%%%#######</text></g>
+<g class="l43"><text class="ascii" x="14" y="324.40" xml:space="preserve">*%%%%#################%@@%+-:.&#160;...::--===++=+#@@@%###%####%###%%</text></g>
+<g class="l44"><text class="ascii" x="14" y="331.00" xml:space="preserve">+%%%%#%%########%######=-:.&#160;.-------:---===---=+*###%%%%%%%%%%%%</text></g>
+<g class="l45"><text class="ascii" x="14" y="337.60" xml:space="preserve">+*%%%%%%######%%####%#:.....:::::::-=+****+++====*%%%%%%%%%%%@%%</text></g>
+<g class="l46"><text class="ascii" x="14" y="344.20" xml:space="preserve">-=+#%%%%%%%%%%%%####%-.:::::--===+*+=++***+**+****#%%%@@@@%%%@@@</text></g>
+<g class="l47"><text class="ascii" x="14" y="350.80" xml:space="preserve">.-=+***##%%%@%@@@%%%@+----:::-=====++***********##%@@@@@@@@@@@%%</text></g>
+<g class="l48"><text class="ascii" x="14" y="357.40" xml:space="preserve">.:--===++++***#####%%%%#**++++++++*##########%%%%@@@%%%%%####***</text></g>
+<g class="l49"><text class="ascii" x="14" y="364.00" xml:space="preserve">&#160;&#160;..:::---=========+++++*****#**#######%%%%%#####***************</text></g>
+<g class="l50"><text class="ascii" x="14" y="370.60" xml:space="preserve">::------=----=====+++***+=+++++++++++++++++++++++++*************</text></g>
+<g class="l51"><text class="ascii" x="14" y="377.20" xml:space="preserve">--====+======+**#####**++++++++++++++++++++++++++***************</text></g>
+<rect class="cursor" x="14" y="377.20" width="3.96" height="6.60" style="animation-delay:7.776s"/>
+</svg>
