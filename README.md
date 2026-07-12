@@ -129,7 +129,9 @@ Worked on scalable backend systems and AI-driven product features.
   <img src="https://img.shields.io/badge/HackerRank-Anmol-purple?style=for-the-badge&logo=hackerrank&logoColor=white"/>
   <img src="https://img.shields.io/badge/CodeChef-Anmol-indigo?style=for-the-badge&logo=codechef&logoColor=white"/>
 </p>
-
+<p align="center">
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmolugale13&theme=tokyonight"  alt="Streak stats"/>
+  </p>
 ---
 
 ## GitHub Analytics
