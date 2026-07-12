@@ -1,0 +1,48 @@
+<svg viewBox="0 0 460 354" width="460" height="354" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">
+<style>
+  .bg { fill:#0d1117; }
+  .frame { fill:none; stroke:#30363d; stroke-width:1; }
+  .dot { opacity:0.9; }
+  .title { fill:#6e7681; font-size:9px; }
+  .txt { fill:#c9d1d9; font-size:12px; white-space:pre; }
+  .dim { fill:#6e7681; font-size:12px; white-space:pre; }
+  .key { fill:#79c0ff; font-size:12px; white-space:pre; font-weight:bold; }
+  .head { fill:#c9d1d9; font-size:13px; white-space:pre; font-weight:bold; }
+  .logo { fill:#c9d1d9; font-size:12px; white-space:pre; opacity:0.85; }
+</style>
+<rect class="bg" width="460" height="354" rx="8"/>
+<rect class="frame" x="0.5" y="0.5" width="459" height="353" rx="8"/>
+<line x1="0" y1="35" x2="460" y2="35" stroke="#30363d" stroke-width="1"/>
+<circle class="dot" cx="16" cy="24" r="3.2" fill="#484f58"/>
+<circle class="dot" cx="30" cy="24" r="3.2" fill="#484f58"/>
+<circle class="dot" cx="44" cy="24" r="3.2" fill="#484f58"/>
+<text class="title" x="230.0" y="27" text-anchor="middle">neofetch -- info-card</text>
+<text class="logo" x="20" y="56.0" xml:space="preserve">   ______   </text>
+<text class="logo" x="20" y="70.0" xml:space="preserve">  /  __  \  </text>
+<text class="logo" x="20" y="84.0" xml:space="preserve"> |  |  |  | </text>
+<text class="logo" x="20" y="98.0" xml:space="preserve"> |  |__|  | </text>
+<text class="logo" x="20" y="112.0" xml:space="preserve">  \______/  </text>
+<text class="logo" x="20" y="126.0" xml:space="preserve">   |    |   </text>
+<text class="logo" x="20" y="140.0" xml:space="preserve">  _|    |_  </text>
+<text class="head" x="148" y="56.0"><tspan fill="#79c0ff">anmol</tspan><tspan fill="#c9d1d9">@</tspan><tspan fill="#79c0ff">github</tspan></text>
+<text class="dim" x="148" y="76.0" xml:space="preserve">------------------------------</text>
+<text x="148" y="96.0" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="dim">: </tspan><tspan class="txt">Software Developer</tspan></text>
+<text x="148" y="116.0" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="dim">: </tspan><tspan class="txt">Sipna College of Engg. &amp; Tech, Amravati</tspan></text>
+<text x="148" y="136.0" xml:space="preserve"><tspan class="key">Kernel</tspan><tspan class="dim">: </tspan><tspan class="txt">B.E. Computer Science (Final Year)</tspan></text>
+<text x="148" y="156.0" xml:space="preserve"><tspan class="key">Role</tspan><tspan class="dim">: </tspan><tspan class="txt">SWE Intern @ Pugarch (Jul 2025-Jan 2026)</tspan></text>
+<text x="148" y="176.0" xml:space="preserve"><tspan class="key">Shell</tspan><tspan class="dim">: </tspan><tspan class="txt">python3 / react.js</tspan></text>
+<text x="148" y="196.0" xml:space="preserve"><tspan class="key">Languages</tspan><tspan class="dim">: </tspan><tspan class="txt">Python, JavaScript, SQL</tspan></text>
+<text x="148" y="216.0" xml:space="preserve"><tspan class="key">Stack</tspan><tspan class="dim">: </tspan><tspan class="txt">React.js, HTML, CSS, MySQL</tspan></text>
+<text x="148" y="236.0" xml:space="preserve"><tspan class="key">Tools</tspan><tspan class="dim">: </tspan><tspan class="txt">Git, VS Code, MS Excel/Word</tspan></text>
+<text x="148" y="256.0" xml:space="preserve"><tspan class="key">Location</tspan><tspan class="dim">: </tspan><tspan class="txt">Amravati, India</tspan></text>
+<text x="148" y="276.0" xml:space="preserve"><tspan class="key">GitHub</tspan><tspan class="dim">: </tspan><tspan class="txt">github.com/anmolugale13</tspan></text>
+<text x="148" y="296.0" xml:space="preserve"><tspan class="key">LinkedIn</tspan><tspan class="dim">: </tspan><tspan class="txt">linkedin.com/in/anmol-ugale-7a49632bb</tspan></text>
+<rect x="148" y="306.0" width="16" height="16" fill="#1e1e1e"/>
+<rect x="166" y="306.0" width="16" height="16" fill="#383838"/>
+<rect x="184" y="306.0" width="16" height="16" fill="#525252"/>
+<rect x="202" y="306.0" width="16" height="16" fill="#6c6c6c"/>
+<rect x="220" y="306.0" width="16" height="16" fill="#868686"/>
+<rect x="238" y="306.0" width="16" height="16" fill="#a0a0a0"/>
+<rect x="256" y="306.0" width="16" height="16" fill="#bababa"/>
+<rect x="274" y="306.0" width="16" height="16" fill="#d4d4d4"/>
+</svg>
