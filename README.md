@@ -85,7 +85,6 @@ A modern SaaS product with integrated analytics and subscription management.
 </details>
 
 ---
-
 ## Experience
 
 **Software Engineer Intern — Pugarch**  
